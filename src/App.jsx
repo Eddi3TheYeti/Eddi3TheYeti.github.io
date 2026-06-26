@@ -8,7 +8,7 @@ const services = [
     title: 'Network & WiFi',
     question: 'Network / WiFi not connecting?',
     description:
-      'Slow speeds, dropped connections, or devices that won\'t join your network — Eddie can diagnose and fix WiFi and home network issues so you stay connected.',
+      'Slow speeds, dropped connections, or devices that won\'t join your network — Edward can diagnose and fix WiFi and home network issues so you stay connected.',
   },
   {
     icon: '💻',
@@ -22,7 +22,7 @@ const services = [
     title: 'New Device Setup',
     question: 'New device setup?',
     description:
-      'Just got a new phone, tablet, or computer? Eddie will help you set it up, transfer your data, and make sure everything works the way you need.',
+      'Just got a new phone, tablet, or computer? Edward will help you set it up, transfer your data, and make sure everything works the way you need.',
   },
 ]
 
@@ -30,7 +30,7 @@ const whyItems = [
   {
     title: 'Local & Personal',
     description:
-      'One-on-one support from Eddie — not a call center. Friendly, patient help right here in Springfield.',
+      'One-on-one support from Edward — not a call center. Friendly, patient help right here in Springfield.',
   },
   {
     title: 'Honest Service',
@@ -40,12 +40,12 @@ const whyItems = [
   {
     title: 'Fast Response',
     description:
-      'When your tech isn\'t working, you need help now. Call Eddie and get back up and running quickly.',
+      'When your tech isn\'t working, you need help now. Call Edward and get back up and running quickly.',
   },
   {
     title: 'All Skill Levels',
     description:
-      'Whether you\'re tech-savvy or just need someone patient, Eddie meets you where you are.',
+      'Whether you\'re tech-savvy or just need someone patient, Edward meets you where you are.',
   },
 ]
 
@@ -55,10 +55,10 @@ function App() {
       <header className="header">
         <div className="header-inner">
           <a href="#" className="logo">
-            Eddie Dupere <span>Tech Support</span>
+            Edward Dupere <span>Tech Support</span>
           </a>
           <a href={`tel:${PHONE_TEL}`} className="header-cta">
-            Call Eddie! {PHONE_DISPLAY}
+            Call Edward! {PHONE_DISPLAY}
           </a>
         </div>
       </header>
@@ -74,7 +74,7 @@ function App() {
             </p>
             <div className="hero-cta-group">
               <a href={`tel:${PHONE_TEL}`} className="btn-primary">
-                Call Eddie!
+                Call Edward!
               </a>
               <p className="hero-phone">
                 <a href={`tel:${PHONE_TEL}`}>{PHONE_DISPLAY}</a>
@@ -86,7 +86,7 @@ function App() {
         <section className="section services" id="services">
           <div className="section-inner">
             <span className="section-label">Services</span>
-            <h2 className="section-title">How Can Eddie Help?</h2>
+            <h2 className="section-title">How Can Edward Help?</h2>
             <p className="section-desc">
               From everyday frustrations to full device setup — get reliable tech support
               without the hassle.
@@ -107,7 +107,7 @@ function App() {
 
         <section className="section" id="about">
           <div className="section-inner">
-            <span className="section-label">Why Eddie</span>
+            <span className="section-label">Why Edward</span>
             <h2 className="section-title">Trusted Tech Support in Springfield</h2>
             <p className="section-desc">
               Assisting Springfield, Missouri and surrounding areas with friendly,
@@ -127,7 +127,7 @@ function App() {
         <section className="section cta-band" id="contact">
           <div className="section-inner">
             <span className="section-label">Get Help Today</span>
-            <h2 className="section-title">Computer Problems? Call Eddie!</h2>
+            <h2 className="section-title">Computer Problems? Call Edward!</h2>
             <a href={`tel:${PHONE_TEL}`} className="btn-primary">
               Call Now — {PHONE_DISPLAY}
             </a>
@@ -152,7 +152,7 @@ function App() {
       <footer className="footer">
         <div className="footer-inner">
           <p>
-            &copy; {new Date().getFullYear()} Eddie Dupere Tech Support &mdash; Springfield,
+            &copy; {new Date().getFullYear()} Edward Dupere Tech Support &mdash; Springfield,
             Missouri
           </p>
         </div>
